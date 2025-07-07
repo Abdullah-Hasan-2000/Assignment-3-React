@@ -1,0 +1,47 @@
+.main_container {
+    background-color: #f85606;
+    color: white;
+}
+
+.navbarContainer {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 1px 40px 1px;
+}
+
+.logoContainer {
+    width: 200px;
+    margin-right: 80px;
+}
+
+.searchContainer {
+    display: flex;
+    height: 45px;
+    align-items: center;
+    width: 50%;
+}
+
+.searchContainer input {
+    padding: 0 0 0 20px;
+    font-size: 16px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.searchIcon {
+    height: 100%;
+    padding: 10px 10px;
+    background-color: rgb(255, 225, 211);
+    color: #f85606;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.cartContainer {
+    padding: 10px 0 0 30px;
+}
