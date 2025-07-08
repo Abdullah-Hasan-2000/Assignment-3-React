@@ -1,0 +1,73 @@
+.container {
+    background-image: linear-gradient(to right, rgb(245, 245, 245) , rgb(255, 250, 245), rgb(255, 243, 233), rgb(255, 240, 225), rgb(255, 234, 218));
+}
+
+.headingContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.headingContainer h6 {
+    margin: 0;
+}
+
+.logoContainer {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.headingContainer h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #702535;
+}
+
+.textContainer {
+    margin-top: 5px;
+    background-image: url('../../assets/file_shape.png');
+    background-size: cover !important;
+    color: white;
+}
+
+.textDownload {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.textRating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.buttonContainer {
+    padding-bottom: 25px;
+}
+
+.buttonContainer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttonContainer div img {
+    width: 36px;
+    margin-right: 5px;
+}
+
+.buttonContainer div p {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    width: 70px;
+    margin: 0;
+}
