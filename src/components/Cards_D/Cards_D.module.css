@@ -1,0 +1,23 @@
+.cardContainer {
+    border: none;
+    border-radius: 0px;
+    width: 180px;
+    height: 300px;
+}
+
+.cardImage {
+    width: 100%;
+    height: 180px;
+}
+
+.cardDescription {
+    font-size: 14px;
+    height: 30px;
+}
+
+.cardPrice {
+    color: #f57224;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}

@@ -18,7 +18,8 @@ function App() {
 
   return (
     <>
-      <Navbar_1 />
+      <div style={{ backgroundColor: "#f5f5f5" }}>
+        <Navbar_1 />
       <Navbar_Search />
 
 
@@ -38,13 +39,15 @@ function App() {
           <h1>Just For You</h1>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", rowGap: "20px"}}>
             {products.map((e, i) => {
-              return <Cards imgSrc={e.image} title={e.title} price={e.price} />;
+              return <Cards imgSrc={e.image} title={e.title} price={e.price} rating={e.rating.rate} count={e.rating.count} />;
             })}
 
           </div>
         </div>
 
       </Container>
+      </div>
+      
 
 
 
