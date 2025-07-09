@@ -24,10 +24,10 @@ function App() {
 
       <Container>
         <Row>
-          <Col xs={10} >
+          <Col xs={10} style={{ margin: "0px", padding: "0px", height: "370px"}}>
             <Carousel_Daraz />
           </Col>
-          <Col xs={2} style={{ margin: "0", padding: "0"}}>
+          <Col xs={2} style={{ margin: "0px", padding: "0px", height: "370px"}}>
             
               <Try_App />
             

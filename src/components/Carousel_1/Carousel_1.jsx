@@ -10,22 +10,22 @@ const Carousel_Daraz = () => {
   return (
     <Carousel>
       <Carousel.Item>
-        <img width='100%' src={Image_1} alt="" />
+        <img width='100%' height='370px' src={Image_1} alt="" />
       </Carousel.Item>
       <Carousel.Item>
-        <img width='100%' src={Image_2} alt="" />
+        <img width='100%' height='370px' src={Image_2} alt="" />
       </Carousel.Item>
       <Carousel.Item>
-        <img width='100%' src={Image_3} alt="" />
+        <img width='100%' height='370px' src={Image_3} alt="" />
       </Carousel.Item>
       <Carousel.Item>
-        <img width='100%' src={Image_4} alt="" />
+        <img width='100%' height='370px' src={Image_4} alt="" />
       </Carousel.Item>
       <Carousel.Item>
-        <img width='100%' src={Image_5} alt="" />
+        <img width='100%' height='370px' src={Image_5} alt="" />
       </Carousel.Item>
       <Carousel.Item>
-        <img width='100%' src={Image_6} alt="" />
+        <img width='100%' height='370px' src={Image_6} alt="" />
       </Carousel.Item>
     </Carousel>
   );

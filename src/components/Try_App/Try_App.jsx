@@ -4,6 +4,9 @@ import styles from './Try_App.module.css';
 import { FaStar } from "react-icons/fa6";
 import delivery_logo from '../../assets/delivery_logo.webp';
 import exclusive_logo from '../../assets/exclusive_logo.webp';
+import QR_code from '../../assets/QR_code.webp';
+import App_store from '../../assets/App_store.png';
+import Google_play from '../../assets/Google_play.png';
 
 const Try_App = () => {
   return (
@@ -33,8 +36,22 @@ const Try_App = () => {
           </div>
         </div>
       </div>
-      <div></div>
-      <div></div>
+      <div className={styles.linksContainer}>
+        <div className={styles.qrCodeContainer}>
+          <img src={QR_code} alt="QR Code" />
+        </div>
+        <div className={styles.downloadLinks}>
+          <div>
+            <img src={App_store} alt="App Store" />
+          </div>
+          <div>
+            <img src={Google_play} alt="Google Play" />
+          </div>
+        </div>
+      </div>
+      <div className={styles.footerContainer}>
+        <p>Download the App now!</p>
+      </div>
     </div>
   )
 }
